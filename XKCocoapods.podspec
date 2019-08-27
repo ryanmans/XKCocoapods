@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
    s.name         = "XKCocoapods"
-   s.version      = "1.0.0"
+   s.version      = "1.0.1"
    s.summary      = "基于cocoapods的方式制作公有库"
    s.homepage     = "https://github.com/ryanMans/XKCocoapods"
    s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,6 +19,5 @@ Pod::Spec.new do |s|
 #s.ios.vendored_frameworks = 'Products/*.framework'
    s.ios.deployment_target = '8.0'
   # s.ios.vendored_frameworks = 'XKCocoapods/Classes/XKCocoapods.framework'
-
 
 end
