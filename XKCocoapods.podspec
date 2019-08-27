@@ -7,36 +7,18 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'XKCocoapods'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XKCocoapods.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+   s.name         = "XKCocoapods"
+   s.version      = "1.0.0"
+   s.summary      = "基于cocoapods的方式制作公有库"
+   s.homepage     = "https://github.com/RyanMans/XKKit"
+   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+   s.author           = { 'ALLen、LAS' => '1696186412@qq.com' }
+   s.source           = { :git => 'https://github.com/RyanMans/XKKit.git', :tag => s.version.to_s }
+   s.source_files = 'XKCocoapods/Classes/**/*'
+#s.ios.vendored_frameworks = 'Products/*.framework'
+   s.ios.deployment_target = '8.0'
+   s.ios.vendored_frameworks = 'XKCocoapods/Classes/XKCocoapods.framework'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
-  s.homepage         = 'https://github.com/RyanMans/XKCocoapods'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'RyanMans' => 'chonglou@sinoxk.com' }
-  s.source           = { :git => 'https://github.com/RyanMans/XKCocoapods.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'XKCocoapods/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'XKCocoapods' => ['XKCocoapods/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
