@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
    s.name         = "XKCocoapods"
    s.version      = "1.0.0"
    s.summary      = "基于cocoapods的方式制作公有库"
-   s.homepage     = "https://github.com/RyanMans/XKKit"
+   s.homepage     = "https://github.com/ryanMans/XKCocoapods"
    s.license          = { :type => 'MIT', :file => 'LICENSE' }
    s.author           = { 'ALLen、LAS' => '1696186412@qq.com' }
-   s.source           = { :git => 'https://github.com/RyanMans/XKKit.git', :tag => s.version.to_s }
+   s.source           = { :git => 'https://github.com/ryanMans/XKCocoapods.git', :tag => s.version.to_s }
    s.source_files = 'XKCocoapods/Classes/**/*'
 #s.ios.vendored_frameworks = 'Products/*.framework'
    s.ios.deployment_target = '8.0'
