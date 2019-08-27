@@ -1,0 +1,22 @@
+{
+  "name": "XKCocoapods",
+  "version": "0.1.0",
+  "summary": "A short description of XKCocoapods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/RyanMans/XKCocoapods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RyanMans": "chonglou@sinoxk.com"
+  },
+  "source": {
+    "git": "https://github.com/RyanMans/XKCocoapods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XKCocoapods/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - XKCocoapods (0.1.0)
+
+DEPENDENCIES:
+  - XKCocoapods (from `../`)
+
+EXTERNAL SOURCES:
+  XKCocoapods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKCocoapods: b44d60b7a50b408b5713341eb949dba392b385db
+
+PODFILE CHECKSUM: de717110e54526dacc35d3548ab90c764c14441a
+
+COCOAPODS: 1.6.0
