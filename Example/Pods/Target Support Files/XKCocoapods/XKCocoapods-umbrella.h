@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XKCocoapods.h"
 
 FOUNDATION_EXPORT double XKCocoapodsVersionNumber;
 FOUNDATION_EXPORT const unsigned char XKCocoapodsVersionString[];

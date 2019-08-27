@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
    s.source_files = 'XKCocoapods/Classes/**/*'
 #s.ios.vendored_frameworks = 'Products/*.framework'
    s.ios.deployment_target = '8.0'
-   s.ios.vendored_frameworks = 'XKCocoapods/Classes/XKCocoapods.framework'
+  # s.ios.vendored_frameworks = 'XKCocoapods/Classes/XKCocoapods.framework'
 
 
 end

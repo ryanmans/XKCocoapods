@@ -1,22 +1,24 @@
 {
   "name": "XKCocoapods",
-  "version": "0.1.0",
-  "summary": "A short description of XKCocoapods.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/RyanMans/XKCocoapods",
+  "version": "1.0.0",
+  "summary": "基于cocoapods的方式制作公有库",
+  "homepage": "https://github.com/RyanMans/XKKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "RyanMans": "chonglou@sinoxk.com"
+    "ALLen、LAS": "1696186412@qq.com"
   },
   "source": {
-    "git": "https://github.com/RyanMans/XKCocoapods.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/RyanMans/XKKit.git",
+    "tag": "1.0.0"
   },
+  "source_files": "XKCocoapods/Classes/**/*",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XKCocoapods/Classes/**/*"
+  "ios": {
+    "vendored_frameworks": "XKCocoapods/Classes/XKCocoapods.framework"
+  }
 }
